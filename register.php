@@ -12,13 +12,13 @@
 
 
 <?php
-if(isset($_GET['submit'])){
+if(isset($_POST['submit'])){
 
-    $username = $_GET['username'];
-    $pswd = $_GET['pswd'];
-    $email = $_GET['email'];
-    $pic = $_GET['pic'];
-    $status = $_GET['status'];
+    $username = $_POST['username'];
+    $pswd = $_POST['pswd'];
+    $email = $_POST['email'];
+    $pic = $_POST['pic'];
+    $status = $_POST['status'];
 
 $conn = mysqli_connect("localhost","root","","member");
 if(!$conn){
@@ -39,7 +39,7 @@ if($result){
 
 <div class="container mt-3">
   <h2>ลงทะเบียนสมาชิก</h2>
-  <form action="register.php">
+  <form action="register.php" method="Post" enctype="multipath">
   <div class="mb-3 mt-3">
       <label for="username">Username:</label>
       <input type="text" class="form-control" id="username" placeholder="Enter username" name="username">
@@ -54,7 +54,7 @@ if($result){
     </div>
     <div class="mb-3">
       <label for="pic">Picture:</label>
-      <input type="text" class="form-control" id="pic" placeholder="Enter picture" name="pic">
+      <input type="file" class="form-control" id="pic" placeholder="Enter picture" name="pic">
     </div>
     <div class="mb-3">
       <label for="pic">Status:</label>
