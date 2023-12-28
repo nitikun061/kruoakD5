@@ -1,5 +1,5 @@
 <?php
-    $name = "Phanudet" ;
+    $name = "nitikun" ;
     $num1 = 5 ;
     $Num1 = 2 ;
     echo $num1 * $Num1 ;
