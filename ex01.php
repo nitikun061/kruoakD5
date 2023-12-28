@@ -1,4 +1,4 @@
 <?php
-    echo "Phanudet" ;
-    echo "Kenchomphu" ;
+    echo "nitikun" ;
+    echo "kidsukum" ;
 ?>
