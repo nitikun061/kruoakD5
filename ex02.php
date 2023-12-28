@@ -1,6 +1,6 @@
 <?php
-    echo "Phanudet" ;
+    echo "nitikun" ;
     echo "<br>" ;
-    echo "Kenchomphu" ;
-    echo "<br>50 ปี" ;
+    echo "kidsukum" ;
+    echo "<br>18 ปี" ;
 ?>
