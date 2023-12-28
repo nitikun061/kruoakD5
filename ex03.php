@@ -1,7 +1,7 @@
 <?php
-    echo "Phanudet" ;
+    echo "nitikun" ;
     echo "<br>" ;
-    echo "Kenchomphu" ;
+    echo "kidsukum" ;
     echo "<br>50 ปี" ;
     echo "<br>5 + 4 = " ;
     echo 5+4 ;
